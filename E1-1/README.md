@@ -47,10 +47,11 @@ pwd
 ```
 sw_vers
 ```
+![commend way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/commend.png)
 
 or click
 
-![OS check way]()
+![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/click_check.png)
 
 
 - Shell envviroment / version
