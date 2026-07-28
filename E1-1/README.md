@@ -86,29 +86,29 @@ git --version
 - github add/commit/push   
 
 terminal 실행   
-[terminal_execution](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/terminal_execution.png)
+![terminal_execution](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/terminal_execution.png)
 
 git clone (로컬 환경으로 불러오기)
 ```
 git clone [step1에서 복사한 깃 주소]
 ```
-[git_clone](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png)
+![git_clone](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png)
 
 git 사용자 정보 설정하기
 ```
 git config --global user.name "사용자 이름"
 git config --global user.email "사용자 이메일"
 ```
-[user_information](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)
+![user_information](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)
 
 사용자 정보 입력 확인
 ```
 git config --global --list
 ```
-[information_list](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png)
+![information_list](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png)
 
 README.md 파일 내용 입력   
-[readme](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/readme.png)
+![readme](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/readme.png)
 
 git add (파일을 Staging Area에 올리기)
 : .git/index 로 옮겨지며 스테이징 영역으로 임시파일 영역   
