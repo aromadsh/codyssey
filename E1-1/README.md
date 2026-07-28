@@ -13,15 +13,15 @@
 <br>
 
 ## 3) 수행 항목 체크리스트
-- [] a. 터미널 조작 명령어 사용
-- [] b. 실행 환경 확인
-- [] c. Github 저장소 생성 및 Push
-- [] d. Docker 운영/검증
-- [] e. Dockerfile 기반 웹 서버 컨테이너
-- [] f. 포트 매핑 접속
-- [] g. 바인드 마운트 반영
-- [] h. 볼륨 영속성 확인
-- [] i. git 설정 및 github/VSCode 연동
+- [o] a. 터미널 조작 명령어 사용
+- [x] b. 실행 환경 확인
+- [x] c. Github 저장소 생성 및 Push
+- [x] d. Docker 운영/검증
+- [x] e. Dockerfile 기반 웹 서버 컨테이너
+- [x] f. 포트 매핑 접속
+- [x] g. 바인드 마운트 반영
+- [x] h. 볼륨 영속성 확인
+- [x] i. git 설정 및 github/VSCode 연동
 <br>
 
 ## 4) 검증 방법
