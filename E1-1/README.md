@@ -47,7 +47,7 @@ pwd
 ```
 sw_vers
 ```
-![commend way](![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/os_commend.png)
+![commend way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/os_commend.png)
 
 or click
 
@@ -59,7 +59,7 @@ or click
 zsh --version
 ```
 
-![commend way](![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/zsh_commend.png)
+![commend way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/zsh_commend.png)
 
 - Docker Version
 ```
@@ -73,6 +73,14 @@ git --version
 ![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/git_commend.png)
 
 #### c. Github 저장소 생성 및 Push: 스크린샷 및 README.md 5번
+i. GitHub 회원가입 ([참고자료](https://github.com/))
+ii. Git 설치 ([참고자료](https://git-scm.com/))
+iii. github repositories 생성 및 깃 주소 복사
+| Step 1 | Step 2 | Step 3 |
+|---|---|---|
+| ![github_step1](이미지주소1) | ![github_step2](이미지주소2) | ![github_step3](이미지주소3) |
+
+
 <br>
 
 ## 5) 트러블 슈팅 2건 이상 (문제 -> 원인 가설 -> 확인 -> 해결/대안)
