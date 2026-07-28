@@ -40,7 +40,7 @@ cd [이동하려는 디렉토리 명]
 ```
 pwd
 ```
-![a. 터미널 조작 명령어 사용 이미지](https://github.com/aromadsh/codyssey/blob/master/E1-1/a_%ED%84%B0%EB%AF%B8%EB%84%90%20%EC%A1%B0%EC%9E%91%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%82%AC%EC%9A%A9/a.png)
+![commend_recording](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
 
 ### mission_b. 실행 환경 확인
 - OS envviroment / version
