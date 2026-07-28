@@ -25,7 +25,7 @@
 <br>
 
 ## 4) 검증 방법
-#### a. 터미널 조작 명령어 사용
+### a. 터미널 조작 명령어 사용
 - 폴더(디렉토리) 생성
 ```
 mkdir [생성 디렉토리 명]
@@ -42,7 +42,8 @@ pwd
 ```
 ![a. 터미널 조작 명령어 사용 이미지](https://github.com/aromadsh/codyssey/blob/master/E1-1/a_%ED%84%B0%EB%AF%B8%EB%84%90%20%EC%A1%B0%EC%9E%91%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%82%AC%EC%9A%A9/a.png)
 
-#### b. 실행 환경 확인: 스크린샷
+### b. 실행 환경 확인: 스크린샷
+
 #### c. Github 저장소 생성 및 Push: 스크린샷 및 README.md 5번
 <br>
 
