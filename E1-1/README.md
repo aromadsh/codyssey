@@ -77,7 +77,8 @@ git --version
 <br>
 - Git 설치 ([참고자료](https://git-scm.com/))  
 <br>
-- github repositories 생성 및 깃 주소 복사    
+- github repositories 생성 및 깃 주소 복사  
+
 | Step 1 | Step 2 | Step 3 |  
 |---|---|---|
 | ![github_step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png) | ![github_step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png) | ![github_step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) |  
