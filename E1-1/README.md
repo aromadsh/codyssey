@@ -73,12 +73,15 @@ git --version
 ![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/git_commend.png)
 
 #### c. Github 저장소 생성 및 Push: 스크린샷 및 README.md 5번
-i. GitHub 회원가입 ([참고자료](https://github.com/))
-ii. Git 설치 ([참고자료](https://git-scm.com/))
-iii. github repositories 생성 및 깃 주소 복사
+i. GitHub 회원가입 ([참고자료](https://github.com/))  
+<br>
+ii. Git 설치 ([참고자료](https://git-scm.com/))  
+<br>
+iii. github repositories 생성 및 깃 주소 복사  
 | Step 1 | Step 2 | Step 3 |
 |---|---|---|
-| ![github_step1](이미지주소1) | ![github_step2](이미지주소2) | ![github_step3](이미지주소3) |
+| ![github_step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png) | ![github_step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png) | ![github_step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) |  
+<br>
 
 
 <br>
