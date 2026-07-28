@@ -13,7 +13,7 @@
 <br>
 
 ## 3) 수행 항목 체크리스트
-- [o] mission_a. 터미널 조작 명령어 사용
+- [x] mission_a. 터미널 조작 명령어 사용
 - [x] mission_b. 실행 환경 확인
 - [x] mission_c. Github 저장소 생성 및 Push
 - [x] d. Docker 운영/검증
@@ -73,14 +73,60 @@ git --version
 ![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/git_commend.png)
 
 #### c. Github 저장소 생성 및 Push: 스크린샷 및 README.md 5번
-i. GitHub 회원가입 ([참고자료](https://github.com/))  
+- GitHub 회원가입 ([참고자료](https://github.com/))  
 <br>
-ii. Git 설치 ([참고자료](https://git-scm.com/))  
+- Git 설치 ([참고자료](https://git-scm.com/))  
 <br>
 iii. github repositories 생성 및 깃 주소 복사  
 | Step 1 | Step 2 | Step 3 |
 |---|---|---|
 | ![github_step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png) | ![github_step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png) | ![github_step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) |  
+
+- github add/commit/push. 
+terminal 실행   
+
+
+git clone (로컬 환경으로 불러오기)
+```
+git clone [step1에서 복사한 깃 주소]
+```
+
+git 사용자 정보 설정하기
+```
+git config --global user.name "사용자 이름"
+git config --global user.email "사용자 이메일"
+```
+
+사용자 정보 입력 확인
+```
+git config --global --list
+```
+
+README.md 파일 내용 입력   
+
+git add (파일을 Staging Area에 올리기)
+: .git/index 로 옮겨지며 스테이징 영역으로 임시파일 영역   
+```
+git add [file name or . (all)]
+```    
+
+git commit (Local Repository에 올리기)    
+: .git/refs/heads/와 .git/objects/ 에 옮겨지며, 각각 커밋 버전과 위치를 업데이트 하기 위함과 핵심 정보를 담는 영역으로 로컬 환경에 저장하는 영역   
+```
+git commit -m "commit messages"
+```
+
+git push (Remote Repository에 올리기)
+: 여기서는 github로 저장되는 것으로 최종 파일을 공식적으로 업로드 하는 저장 영역
+```
+git push
+```
+
+
+
+
+![git_clone]
+
 <br>
 
 
