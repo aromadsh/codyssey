@@ -47,7 +47,7 @@ pwd
 ```
 sw_vers
 ```
-![commend way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/commend.png)
+![commend way](![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/os_commend.png)
 
 or click
 
@@ -56,7 +56,10 @@ or click
 
 - Shell envviroment / version
 ```
+zsh --version
 ```
+
+![commend way](![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/zsh_commend.png)
 
 - Docker Version
 ```
@@ -64,7 +67,10 @@ or click
 
 - Git Version
 ```
+git --version
 ```
+
+![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/git_commend.png)
 
 #### c. Github 저장소 생성 및 Push: 스크린샷 및 README.md 5번
 <br>
