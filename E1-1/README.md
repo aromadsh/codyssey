@@ -31,6 +31,6 @@
 <br>
 
 ## 5) 트러블 슈팅 2건 이상 (문제 -> 원인 가설 -> 확인 -> 해결/대안)
-- [c. git push 과정 중 토큰 이슈] 
+- [c. git push 과정 중 토큰 이슈](https://github.com/aromadsh/codyssey/tree/master/E1-1/a_%ED%84%B0%EB%AF%B8%EB%84%90%20%EC%A1%B0%EC%9E%91%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%82%AC%EC%9A%A9)
 
 
