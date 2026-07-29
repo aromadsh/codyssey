@@ -78,7 +78,7 @@ git --version
 
 ---
 
-### c. Github 저장소 생성 및 Push
+### mission_c. Github 저장소 생성 및 push  
 - GitHub 회원가입 ([참고자료](https://github.com/))   
 
 - Git 설치 ([참고자료](https://git-scm.com/))    
@@ -105,6 +105,11 @@ git --version
 
 > git push (Remote Repository에 올리기)
 : 여기서는 github로 저장되는 것으로 최종 파일을 공식적으로 업로드 하는 저장 영역 
+
+
+---
+
+### mission_d. docker 운영/검증
 
 
 ## 5) 트러블 슈팅 2건 이상 (문제 -> 원인 가설 -> 확인 -> 해결/대안)
