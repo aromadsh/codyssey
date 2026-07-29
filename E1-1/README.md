@@ -88,8 +88,13 @@ git --version
 | 단계 | 내용 | 명령어 | 결과 |  
 |---|---|---|---|
 | 1 | github에서 repositories 생성 |  | [step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png)<br>[step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png)<br>[step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) | 
-| 2 | repositories를 로컬 환경으로 가져오기 | ```git clone [repositories 주소]```  | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png) | 
-| 3 | git 사용자 정보 입력 및 확인 | ```git config --global user.name [git 사용자 명]```<br>```git config --global user.email [git 사용자 이메일]```<br>```git config --global --list``` | [result_1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)<br>[result_2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png) |  
+| 2 | 터미널 실행 |  | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/terminal_execution.png) | 
+| 3 | repositories를 로컬 환경으로 가져오기 | ```git clone [repositories 주소]```  | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png) | 
+| 4 | git 사용자 정보 입력 및 확인 | ```git config --global user.name [git 사용자 명]```<br>```git config --global user.email [git 사용자 이메일]```<br>```git config --global --list``` | [result_1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)<br>[result_2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png) |  
+| 5 | 토큰 발급 | 경로: 프로필 - 세팅 - 하단 개발자 세팅 - 토큰(클래식) - 발금 - Repo 체크 필수 |  |
+| 6 | README 파일 수정 |  | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/readme.png) |
+| 7 | 수정된 파일 스테이징 영역으로 올리기 | ```git add [해당 파일 이름 또는 .]```<br>(. 모든 파일) | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/add.png)|
+| 8 | 수정된 파일 로컬 환경 영역으로 올리기 | ```git commit -m [파일 변동 사항 메시지]``` | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/add.png)|
 
 - github add/commit/push   
 
