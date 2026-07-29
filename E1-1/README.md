@@ -94,59 +94,18 @@ git --version
 | 5 | 토큰 발급 | 경로: 프로필 - 세팅 - 하단 개발자 세팅 - 토큰(클래식) - 발금 - Repo 체크 필수 |  |
 | 6 | README 파일 수정 |  | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/readme.png) |
 | 7 | 수정된 파일 스테이징 영역으로 올리기 | ```git add [해당 파일 이름 또는 .]```<br>(. 모든 파일) | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/add.png)|
-| 8 | 수정된 파일 로컬 환경 영역으로 올리기 | ```git commit -m [파일 변동 사항 메시지]``` | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/add.png)|
+| 8 | 수정된 파일 로컬 환경 영역으로 올리기 | ```git commit -m [파일 변동 사항 메시지]``` | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/commit.png)|
+| 9 | 수정된 파일 github 영역으로 올리기 | ```git push``` | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/push.png)|
 
-- github add/commit/push   
+> git add (파일을 Staging Area에 올리기)
+: .git/index 로 옮겨지며 스테이징 영역으로 임시파일 영역    
 
-terminal 실행   
-![terminal_execution](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/terminal_execution.png)
+> git commit (Local Repository에 올리기)    
+: .git/refs/heads/와 .git/objects/ 에 옮겨지며, 각각 커밋 버전과 위치를 업데이트 하기 위함과 핵심 정보를 담는 영역으로 로컬 환경에 저장하는 영역    
 
-git clone (로컬 환경으로 불러오기)
-```
-git clone [step1에서 복사한 깃 주소]
-```
-![git_clone](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png)
+> git push (Remote Repository에 올리기)
+: 여기서는 github로 저장되는 것으로 최종 파일을 공식적으로 업로드 하는 저장 영역 
 
-git 사용자 정보 설정하기
-```
-git config --global user.name "사용자 이름"
-git config --global user.email "사용자 이메일"
-```
-![user_information](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)
-
-사용자 정보 입력 확인
-```
-git config --global --list
-```
-![information_list](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png)
-
-README.md 파일 내용 입력   
-![readme](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/readme.png)
-
-git add (파일을 Staging Area에 올리기)
-: .git/index 로 옮겨지며 스테이징 영역으로 임시파일 영역   
-```
-git add [file name or . (all)]
-```    
-
-git commit (Local Repository에 올리기)    
-: .git/refs/heads/와 .git/objects/ 에 옮겨지며, 각각 커밋 버전과 위치를 업데이트 하기 위함과 핵심 정보를 담는 영역으로 로컬 환경에 저장하는 영역   
-```
-git commit -m "commit messages"
-```
-
-git push (Remote Repository에 올리기)
-: 여기서는 github로 저장되는 것으로 최종 파일을 공식적으로 업로드 하는 저장 영역
-```
-git push
-```
-
-
-
-<br>
-
-
-<br>
 
 ## 5) 트러블 슈팅 2건 이상 (문제 -> 원인 가설 -> 확인 -> 해결/대안)
 
