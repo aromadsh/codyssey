@@ -26,21 +26,28 @@
 
 ## 4) 검증 방법
 ### mission_a. 터미널 조작 명령어 사용
-- 폴더(디렉토리) 생성
+- 폴더(디렉토리) 생성   
+command  
 ```
 mkdir [생성 디렉토리 명]
 ```
+[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
 
-- 폴더(디렉토리)로 이동
+- 폴더(디렉토리)로 이동  
+command  
 ```
 cd [이동하려는 디렉토리 명]
 ```
+[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
 
-- 현재 경로 확인
+- 현재 경로 확인   
+command  
 ```
 pwd
 ```
-![commend_recording](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
+[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
+
+---
 
 ### mission_b. 실행 환경 확인
 - OS envviroment / version
@@ -129,9 +136,6 @@ git push
 ```
 
 
-
-
-![git_clone]
 
 <br>
 
