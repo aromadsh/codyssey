@@ -140,11 +140,20 @@ or
 ```
 mkdir dock
 cd dock
-nano Dockerfile
-# Dockerfile에 내용 작성
-docker build -t my-custom-app:v1 .
+# Dockerfile에 내용 작성 
+vim Dockerfile 
+# app.py 실행할 파일 생성
+echo "print('Hello World')" > app.py
+docker build -t dock .
 ```
+
+[result_images](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_d/created_image.png)
+[result_Dockerfile](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_d/vimdetail.png)
+
+---
+
 - 실시간 모니터링 및 디버깅
+
 
 ## 5) 트러블 슈팅 2건 이상 (문제 -> 원인 가설 -> 확인 -> 해결/대안)
 - 도커 버전 확인 중 orbstack 강제 연동
