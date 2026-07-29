@@ -16,7 +16,7 @@
 - [x] mission_a. 터미널 조작 명령어 사용
 - [x] mission_b. 실행 환경 확인
 - [x] mission_c. Github 저장소 생성 및 Push
-- [x] d. Docker 운영/검증
+- [x] mission_d. Docker 운영/검증
 - [x] e. Dockerfile 기반 웹 서버 컨테이너
 - [x] f. 포트 매핑 접속
 - [x] g. 바인드 마운트 반영
@@ -49,7 +49,7 @@ pwd
 ---
 
 ### mission_b. 실행 환경 확인
-- OS: envviroment / version
+- OS 환경 및 버전 확인
 OS 확인   
 command
 ```
@@ -59,17 +59,21 @@ sw_vers
 또는 클릭으로 확인 방법   
 [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/click_check.png)
 
-- Shell / Docker / Git: envviroment / version
+- Shell / Docker / Git 버전 확인
+- zsh 버전   
+command   
 ```
 zsh --version
 ```  
 
-- Docker Version
+- Docker 버전   
+command   
 ```
 docker --version
 ```
 
-- Git Version
+- Git 버전    
+command  
 ```
 git --version
 ```
@@ -105,13 +109,42 @@ git --version
 
 > git push (Remote Repository에 올리기)
 : 여기서는 github로 저장되는 것으로 최종 파일을 공식적으로 업로드 하는 저장 영역 
+  
+   
+### mission_d. docker 운영/검증
+- 설치 및 환경 검증   
 
+도커 버전 확인
+command
+```
+docker --version
+```
+
+도커 리소스 확인   
+command
+```
+docker info
+```
+[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_d/docker_version_info.png)
 
 ---
 
-### mission_d. docker 운영/검증
-
+- 지원 및 컨테이너 상태 확인
+이미지 생성
+command
+```
+docker pull hello-world
+```
+or
+```
+mkdir dock
+cd dock
+nano Dockerfile
+# Dockerfile에 내용 작성
+docker build -t my-custom-app:v1 .
+```
+- 실시간 모니터링 및 디버깅
 
 ## 5) 트러블 슈팅 2건 이상 (문제 -> 원인 가설 -> 확인 -> 해결/대안)
-
+- 도커 버전 확인 중 orbstack 강제 연동
 
