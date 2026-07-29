@@ -85,11 +85,11 @@ git --version
 
 - github repositories 생성 및 깃 주소 복사   
 
-| 단계 | 내용 | 결과 |  
-|---|---|---|
-| repositories 생성 | github에서 repositories 생성 | [step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png)<br>[step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png)<br>[step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) | 
-| git clone<br>```git clone [repositories 주소]``` | repositories를 로컬 환경으로 가져오기 | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png) | 
-| git config --global user.name<br>git config --global user.email<br>git config --global --list | git 사용자 정보 입력 및 확인 | [result_1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)<br>[result_2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png) |  
+| 단계 | 내용 | 명령어 | 결과 |  
+|---|---|---|---|
+| 1 | github에서 repositories 생성 |  | [step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png)<br>[step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png)<br>[step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) | 
+| 2 | repositories를 로컬 환경으로 가져오기 | ```git clone [repositories 주소]```  | [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png) | 
+| 3 | git 사용자 정보 입력 및 확인 | ```git config --global user.name [git 사용자 명]```<br>```git config --global user.email [git 사용자 이메일]```<br>```git config --global --list``` | [result_1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)<br>[result_2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png) |  
 
 - github add/commit/push   
 
