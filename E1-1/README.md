@@ -30,46 +30,43 @@
 command  
 ```
 mkdir [생성 디렉토리 명]
-```
-[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
+```  
 
 - 폴더(디렉토리)로 이동  
 command  
 ```
 cd [이동하려는 디렉토리 명]
-```
-[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
+``` 
 
 - 현재 경로 확인   
 command  
 ```
 pwd
 ```
+
 [result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_a/commend_recording.png)
 
 ---
 
 ### mission_b. 실행 환경 확인
-- OS envviroment / version
+- OS: envviroment / version
+OS 확인   
+command
 ```
 sw_vers
-```
-![commend way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/os_commend.png)
+```  
 
-or click
+또는 클릭으로 확인 방법   
+[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/click_check.png)
 
-![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/click_check.png)
-
-
-- Shell envviroment / version
+- Shell / Docker / Git: envviroment / version
 ```
 zsh --version
-```
-
-![commend way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/zsh_commend.png)
+```  
 
 - Docker Version
 ```
+docker --version
 ```
 
 - Git Version
@@ -77,7 +74,9 @@ zsh --version
 git --version
 ```
 
-![OS check way](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/git_commend.png)
+[result](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_b/command_recording.png)
+
+---
 
 ### c. Github 저장소 생성 및 Push
 - GitHub 회원가입 ([참고자료](https://github.com/))   
@@ -86,9 +85,11 @@ git --version
 
 - github repositories 생성 및 깃 주소 복사   
 
-| Step 1 | Step 2 | Step 3 |  
+| 단계 | 내용 | 결과 |  
 |---|---|---|
-| ![github_step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png) | ![github_step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png) | ![github_step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) |  
+| repositories 생성 | github에서 repositories 생성 | [step1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step1.png)  [step2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step2.png)  [step3](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/github_step3.png) | 
+| git clone | repositories를 로컬 환경으로 가져오기 | [result] (https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/git_clone.png) | 
+| git config --global user.name   git config --global user.email   git config --global --list | git 사용자 정보 입력 및 확인 | [result_1](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/user_information.png)  [result_2](https://github.com/aromadsh/codyssey/blob/master/E1-1/mission_c/information_list.png) |  
 
 - github add/commit/push   
 
