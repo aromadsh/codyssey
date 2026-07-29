@@ -110,6 +110,7 @@ git --version
 > git push (Remote Repository에 올리기)
 : 여기서는 github로 저장되는 것으로 최종 파일을 공식적으로 업로드 하는 저장 영역 
   
+ --- 
    
 ### mission_d. docker 운영/검증
 - 설치 및 환경 검증   
