@@ -251,12 +251,7 @@ docker run -d --name vol-test-2 -v my-db-vol:/usr/share/nginx/html nginx:alpine
 docker exec vol-test-2 cat /usr/share/nginx/html/test.txt
 ```
 
-[기록 및 파일](https://github.com/aromadsh/codyssey/blob/master/E1-1/docker)
-
-
----
-
-### i. git 설정 및 github/VSCode 연동
+[기록 및 파일](https://github.com/aromadsh/codyssey/blob/master/E1-1/docker) 
 
 
 ---
