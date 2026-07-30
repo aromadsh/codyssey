@@ -81,7 +81,7 @@ git --version
 
 ---
 
-### c. Github 저장소 생성 및 push  
+### c. Github 저장소 생성 및 push & i. git 설정 및 github/VSCode 연동
 - GitHub 회원가입 ([참고자료](https://github.com/))   
 
 - Git 설치 ([참고자료](https://git-scm.com/))    
@@ -209,11 +209,102 @@ docker stats --no-stream
 
 ---
 ### g. 바인드 마운트 반영
-- 실시간 모니터링 및 디버깅
+
+포트 번호 변경하여 컨테이너 실행
+```
+docker run -d -p 8081:80 -v $(pwd)/app:/usr/share/nginx/html --name bind-test nginx:alpine
+# ${pwd} 본인의 경로에 맞춰서 입력
+```
+
+
+[기록 및 파일](https://github.com/aromadsh/codyssey/blob/master/E1-1/docker)
+
+---
+
+### h. 볼륨 영속성 확인  
+
+볼륨 생성 및 컨테이너 연결
+```
+# 1. 볼륨 생성
+docker volume create my-db-vol
+
+# 2. 볼륨을 연결하여 컨테이너 실행
+docker run -d --name vol-test-1 -v my-db-vol:/usr/share/nginx/html nginx:alpine
+```
+
+데이터 생성 (컨테이너 내부에서 텍스트 파일 생성)
+```
+docker exec vol-test-1 sh -c "echo 'Volume Persistence Test' > /usr/share/nginx/html/test.txt"
+```
+
+컨테이너 삭제 (영속성 테스트)
+```
+docker rm -f vol-test-1
+```
+
+새 컨테이너 연결 및 데이터 확인
+```
+# 동일한 볼륨을 새 컨테이너(vol-test-2)에 연결
+docker run -d --name vol-test-2 -v my-db-vol:/usr/share/nginx/html nginx:alpine
+
+# 파일이 그대로 있는지 확인
+docker exec vol-test-2 cat /usr/share/nginx/html/test.txt
+```
+
+[기록 및 파일](https://github.com/aromadsh/codyssey/blob/master/E1-1/docker)
+
+
+---
+
+### i. git 설정 및 github/VSCode 연동
+
+
+---
 
 
 ## 5) 트러블 슈팅 2건 이상 (문제 -> 원인 가설 -> 확인 -> 해결/대안)
-- 도커 버전 확인 중 orbstack 강제 연동
 
-# 기존 컨테이너가 있다면 중지/삭제 후 실행
-docker run -d -p 8081:80 -v $(pwd)/app:/usr/share/nginx/html --name bind-test nginx:alpine
+#### Issue 1.
+`git push 과정에서 password 부재`
+- git push 과정에서  user name과 password 입력을 요구 하여 입력 하였으나 push 실패
+- password 외에 다른 코드가 필요한 것으로 예상 (보안 OTP 번호 혹은 이메일 주소 등을 시도)
+- AI를 통해 확인 결과 토큰이 필요하다는 것을 확인 (네트워킹 행사를 통해 기간이 없는 토큰이 필요하다는 것도 확인)
+- 프로필 - 세팅 = 개발 세팅 - 클래식 토큰 생성 (기간없음, repo 체크)
+
+#### Issue 2.  
+`port mapping 과정에서 웹 페이지 글씨 깨짐`
+- 포트 맵핑은 성공 했으나 웹페이지 글씨 깨짐 확인
+- 인코딩이 안되었을 가능성을 예상
+- HTML 파일 확인 결과 인코딩 값이 없음을 확인
+- 인코딩 값 포함 하여 정상 출력 확인
+
+수정 전 index.html
+```
+<!-- app/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>도커 학습용 페이지</title>
+</head>
+<body>
+    <h1>안녕하세요! Docker로 만든 웹 서버입니다.</h1>
+    <p>성공적으로 컨테이너가 실행되었습니다.</p>
+</body>
+</html>
+```
+
+수정 후 index.html
+```
+<!-- app/index.html -->
+<!DOCTYPE html>
+<html lang="ko"> <!-- 언어 설정도 ko로 변경 -->
+<head>
+    <meta charset="UTF-8"> <!-- 이 줄이 핵심입니다! -->
+    <title>도커 학습용 페이지</title>
+</head>
+<body>
+    <h1>안녕하세요! Docker로 만든 웹 서버입니다.</h1>
+    <p>성공적으로 컨테이너가 실행되었습니다.</p>
+</body>
+</html>
+```
